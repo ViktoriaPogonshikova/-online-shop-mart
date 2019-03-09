@@ -1,0 +1,23 @@
+%padding-container {
+    padding-top: 100px;
+    padding-bottom: 98px;
+}
+
+%font-Roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+%emblem {
+    width: 40px;
+    height: 40px;
+    margin-right: 9px;
+    border: 1px solid white;
+    padding-top: 9px;
+       &:hover {
+        background-color: $main-color;
+        border: 1px solid $main-color;
+       }
+}
+
+    
